@@ -16,7 +16,7 @@ export default function PricingSection(): React.JSX.Element {
                 description="Každou objednávku tvoříme s péčí a na míru vašemu přání, příležitosti i počtu hostů. Napište nám svou představu a společně vytvoříme něco opravdu výjimečného."
                 plans={[
                   { tag: "Essentials", price: "Custom", description: "Small-batch orders & themed boxes.", features: ["Consultation", "1 Flavor Choice", "Pick-up in KH"] },
-                  { tag: "Celebration", price: "Custom", description: "Large events & sweet bars.", features: ["Full Design", "Multiple Flavors", "Delivery Option"] },
+                  { tag: "Pro velké oslavy", price: "Custom", description: "Large events & sweet bars.", features: ["Full Design", "Multiple Flavors", "Delivery Option"] },
                   { tag: "Wedding", price: "Custom", description: "Premium full-scale service.", features: ["Design Suite", "Custom Palette", "Set-up Service"] }
                 ]}
                 textAnimation="slide-up"
