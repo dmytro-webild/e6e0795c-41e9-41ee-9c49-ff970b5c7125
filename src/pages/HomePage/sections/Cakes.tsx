@@ -10,9 +10,10 @@ export default function CakesSection(): React.JSX.Element {
     <div id="cakes" data-section="cakes" data-webild-component="FeaturesImageBento" data-webild-component-path="@/components/sections/features/FeaturesImageBento">
             <SectionErrorBoundary name="cakes">
               <FeaturesImageBento
-                tag="Custom Cakes & Sweet Bars"
-                title="Unforgettable edible moments."
-                description="From tiered wedding cakes to bespoke sweet bars, we bring your vision to life."
+                tag="Dorty na míru a makronky
+"
+                title="Nezapomenutelné sladké okamžiky"
+                description="Od několikapatrových svatebních dortů až po vyladěné makronky na míru – proměníme vaši představu ve skutečnost."
                 items={[
                   { title: "Bespoke Cakes", description: "Custom birthday & wedding creations.", imageSrc: "http://img.b2bpic.net/free-photo/cupcake-still-life_23-2148097833.jpg" },
                   { title: "Signature Macarons", description: "Timeless flavors reimagined.", imageSrc: "http://img.b2bpic.net/free-photo/web_53876-88496.jpg" },
