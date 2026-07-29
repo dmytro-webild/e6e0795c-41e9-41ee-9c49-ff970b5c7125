@@ -21,7 +21,7 @@ export default function CakesSection(): React.JSX.Element {
                   { title: "Tématické makronky", description: "Osobitý styl vytvořený přesně podle vás", imageSrc: "http://img.b2bpic.net/free-photo/chocolate-cookies-glass-cup-top-view_114579-19093.jpg" },
                   { title: "", description: "", imageSrc: "http://img.b2bpic.net/free-photo/tasty-morning-pastry-coffee-display-traditional-city-cafe_613910-18517.jpg" },
                   { title: "Gourmet Cakes", description: "Artistry in every slice.", imageSrc: "http://img.b2bpic.net/free-photo/slice-chocolate-cake-glass-plate_114579-87378.jpg" },
-                  { title: "Wedding Desserts", description: "Sweet dreams come true.", imageSrc: "http://img.b2bpic.net/free-photo/pyramid-pink-white-macaroons_1304-5624.jpg" }
+                  { title: "Pro Váš velký den Desserts", description: "Sweet dreams come true.", imageSrc: "http://img.b2bpic.net/free-photo/pyramid-pink-white-macaroons_1304-5624.jpg" }
                 ]}
                 textAnimation="slide-up"
               />
