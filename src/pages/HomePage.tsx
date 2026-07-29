@@ -13,10 +13,12 @@ import TestimonialsSection from './HomePage/sections/Testimonials';
 import PricingSection from './HomePage/sections/Pricing';
 import ContactSection from './HomePage/sections/Contact';
 
-export default function HomePage(): React.JSX.Element {
+
+import UspSection from './HomePage/sections/Usp';export default function HomePage(): React.JSX.Element {
   return (
 <>
       <HeroSection />
+      <UspSection />
       <AboutSection />
       <MacaronsSection />
       <CakesSection />
