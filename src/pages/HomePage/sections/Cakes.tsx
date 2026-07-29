@@ -15,8 +15,8 @@ export default function CakesSection(): React.JSX.Element {
                 title="Nezapomenutelné sladké okamžiky"
                 description="Od několikapatrových svatebních dortů až po vyladěné makronky na míru – proměníme vaši představu ve skutečnost."
                 items={[
-                  { title: "Bespoke Cakes", description: "Custom birthday & wedding creations.", imageSrc: "http://img.b2bpic.net/free-photo/cupcake-still-life_23-2148097833.jpg" },
-                  { title: "Signature Macarons", description: "Timeless flavors reimagined.", imageSrc: "http://img.b2bpic.net/free-photo/web_53876-88496.jpg" },
+                  { title: "Dorty na míru", description: "Originální design pro narozeniny i svatby", imageSrc: "http://img.b2bpic.net/free-photo/cupcake-still-life_23-2148097833.jpg" },
+                  { title: "Ikonické makronky", description: "Svěží chutě v dokonalém provedení", imageSrc: "http://img.b2bpic.net/free-photo/web_53876-88496.jpg" },
                   { title: "Full Sweet Bars", description: "Perfect for your event.", imageSrc: "http://img.b2bpic.net/free-photo/green-red-sweets-served-box-candy-bar_8353-8474.jpg" },
                   { title: "Themed Macarons", description: "Personalized for you.", imageSrc: "http://img.b2bpic.net/free-photo/chocolate-cookies-glass-cup-top-view_114579-19093.jpg" },
                   { title: "Artisan Pastry", description: "Small-batch delights.", imageSrc: "http://img.b2bpic.net/free-photo/tasty-morning-pastry-coffee-display-traditional-city-cafe_613910-18517.jpg" },
