@@ -10,9 +10,9 @@ export default function TestimonialsSection(): React.JSX.Element {
     <div id="testimonials" data-section="testimonials" data-webild-component="TestimonialTrustCard" data-webild-component-path="@/components/sections/testimonial/TestimonialTrustCard">
             <SectionErrorBoundary name="testimonials">
               <TestimonialTrustCard
-                quote="The macarons were not only stunning to look at, but they tasted like heaven. A true centerpiece for our wedding celebration!"
+                quote="Objednávali jsme dort na oslavu a byli jsme nadšení. Dort byl nejen nádherně nazdobený, ale hlavně výborný – lehký krém, skvěle vyvážená chuť a kvalitní suroviny byly poznat na první sousto. Všichni hosté si přidávali a dort zmizel mnohem rychleji, než jsme čekali. Vše proběhlo přesně podle domluvy. Určitě neobjednáváme naposledy a rádi doporučujeme dál."
                 rating={5}
-                author="Jana Novotná"
+                author="Lenka Benešová"
                 avatars={[
                   { name: "Jana", imageSrc: "http://img.b2bpic.net/free-photo/female-confectioner-boxing-desserts_23-2150360238.jpg" },
                   { name: "Petr", imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-young-woman-wearing-coat_171337-17061.jpg" },
