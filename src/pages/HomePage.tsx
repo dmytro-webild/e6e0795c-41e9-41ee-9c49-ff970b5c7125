@@ -24,7 +24,7 @@ export default function HomePage() {
         text: "Explore Our Creations",
         href: "#macarons",
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/abstract-minimal-concept-veggies-plate-copy-space_23-2148835310.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/abstract-minimal-concept-veggies-plate-copy-space_23-2148835310.jpg?_wi=1"
       textAnimation="fade-blur"
     />
     </SectionErrorBoundary>
@@ -37,7 +37,7 @@ export default function HomePage() {
       quote="Every creation at Makronky od holky is a piece of art, made with genuine passion, premium ingredients, and a personal touch meant to make your celebrations truly special."
       author="Pastry Artist & Founder"
       role="Studio Owner"
-      imageSrc="http://img.b2bpic.net/free-photo/retired-man-following-culinary-advice-tablet-learning-cooking-tutorial-social-media-forming-dough-with-wooden-rolling-pin-grandfather-with-bonete-apron-using-laptop-preparing-home-cakes_482257-14491.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/retired-man-following-culinary-advice-tablet-learning-cooking-tutorial-social-media-forming-dough-with-wooden-rolling-pin-grandfather-with-bonete-apron-using-laptop-preparing-home-cakes_482257-14491.jpg?_wi=1"
       textAnimation="slide-up"
     />
     </SectionErrorBoundary>
@@ -65,7 +65,7 @@ export default function HomePage() {
               imageSrc: "http://img.b2bpic.net/free-photo/top-view-colorful-delicious-macarons-little-cakes-with-candies-white-space_140725-79670.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/abstract-minimal-concept-veggies-plate-copy-space_23-2148835310.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/abstract-minimal-concept-veggies-plate-copy-space_23-2148835310.jpg?_wi=2",
           imageAlt: "gift box of colorful handmade macarons",
         },
         {
@@ -89,7 +89,7 @@ export default function HomePage() {
             },
           ],
           completedLabel: "Ready",
-          imageSrc: "http://img.b2bpic.net/free-photo/retired-man-following-culinary-advice-tablet-learning-cooking-tutorial-social-media-forming-dough-with-wooden-rolling-pin-grandfather-with-bonete-apron-using-laptop-preparing-home-cakes_482257-14491.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/retired-man-following-culinary-advice-tablet-learning-cooking-tutorial-social-media-forming-dough-with-wooden-rolling-pin-grandfather-with-bonete-apron-using-laptop-preparing-home-cakes_482257-14491.jpg?_wi=2",
           imageAlt: "gift box of colorful handmade macarons",
         },
       ]}
