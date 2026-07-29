@@ -16,9 +16,10 @@ export default function PricingSection(): React.JSX.Element {
                 description="Každou objednávku tvoříme s péčí a na míru vašemu přání, příležitosti i počtu hostů. Napište nám svou představu a společně vytvoříme něco opravdu výjimečného."
                 plans={[
                   { tag: "Pro malé oslavy
-", price: "Custom", description: "Small-batch orders & themed boxes.", features: ["Consultation", "1 Flavor Choice", "Pick-up in KH"] },
-                  { tag: "Pro velké oslavy", price: "Custom", description: "Large events & sweet bars.", features: ["Full Design", "Multiple Flavors", "Delivery Option"] },
-                  { tag: "Wedding", price: "Custom", description: "Premium full-scale service.", features: ["Design Suite", "Custom Palette", "Set-up Service"] }
+", price: "Sladké okamžiky", description: "Ideální volba pro menší oslavy, tematické krabičky a chvíle, které si zaslouží něco sladkého.", features: ["Osobní konzultace
+", "Výběr příchuti podle nabídky", "Pečlivě připravená objednávka"] },
+                  { tag: "Pro velké oslavy", price: "Sladké okamžiky", description: "Proměníme vaši oslavu v nezapomenutelný zážitek. Od tematických makronek až po sladké bary sladěné s vaší událostí", features: ["Tvorba na míru Vašemu přání ", "Výběr z více příchutí", "Sladké pohoštění pro vaše hosty"] },
+                  { tag: "Wedding", price: "Sladké okamžiky", description: "Elegantní sladké pohoštění vytvořené pro jeden z nejdůležitějších dnů vašeho života.", features: ["Individuální návrh", "Sladké okamžiky Palette", "Komplexní sladké pohoštění"] }
                 ]}
                 textAnimation="slide-up"
               />
