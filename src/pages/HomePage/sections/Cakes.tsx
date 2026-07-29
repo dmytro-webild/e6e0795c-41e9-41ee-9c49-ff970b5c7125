@@ -10,11 +10,11 @@ export default function CakesSection(): React.JSX.Element {
     <div id="cakes" data-section="cakes" data-webild-component="FeaturesImageBento" data-webild-component-path="@/components/sections/features/FeaturesImageBento">
             <SectionErrorBoundary name="cakes">
               <FeaturesImageBento
-                tag="Sladké na míru Cakes & Sweet Bars"
+                tag="Custom Cakes & Sweet Bars"
                 title="Unforgettable edible moments."
                 description="From tiered wedding cakes to bespoke sweet bars, we bring your vision to life."
                 items={[
-                  { title: "Bespoke Cakes", description: "Sladké na míru birthday & wedding creations.", imageSrc: "http://img.b2bpic.net/free-photo/cupcake-still-life_23-2148097833.jpg" },
+                  { title: "Bespoke Cakes", description: "Custom birthday & wedding creations.", imageSrc: "http://img.b2bpic.net/free-photo/cupcake-still-life_23-2148097833.jpg" },
                   { title: "Signature Macarons", description: "Timeless flavors reimagined.", imageSrc: "http://img.b2bpic.net/free-photo/web_53876-88496.jpg" },
                   { title: "Full Sweet Bars", description: "Perfect for your event.", imageSrc: "http://img.b2bpic.net/free-photo/green-red-sweets-served-box-candy-bar_8353-8474.jpg" },
                   { title: "Themed Macarons", description: "Personalized for you.", imageSrc: "http://img.b2bpic.net/free-photo/chocolate-cookies-glass-cup-top-view_114579-19093.jpg" },
