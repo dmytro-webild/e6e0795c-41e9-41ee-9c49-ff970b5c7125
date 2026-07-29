@@ -11,7 +11,7 @@ export default function PricingSection(): React.JSX.Element {
             <SectionErrorBoundary name="pricing">
               <PricingSimpleCards
                 tag="Request a Quote"
-                title="Start your sweet journey."
+                title="Začněte svou sladkou cestu."
                 description="Custom creations are priced based on design, flavor complexity, and quantity."
                 plans={[
                   { tag: "Essentials", price: "Custom", description: "Small-batch orders & themed boxes.", features: ["Consultation", "1 Flavor Choice", "Pick-up in KH"] },
