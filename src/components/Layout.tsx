@@ -47,7 +47,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterMinimal
-      brand="Makronky od holky © 2024"
+      brand=""
       copyright="Ručně a s láskou vyráběné v Kutné Hoře."
       socialLinks={[
         {
