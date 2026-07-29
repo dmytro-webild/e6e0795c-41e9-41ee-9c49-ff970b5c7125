@@ -10,7 +10,8 @@ export default function PricingSection(): React.JSX.Element {
     <div id="pricing" data-section="pricing" data-webild-component="PricingSimpleCards" data-webild-component-path="@/components/sections/pricing/PricingSimpleCards">
             <SectionErrorBoundary name="pricing">
               <PricingSimpleCards
-                tag="Request a Quote"
+                tag="Nezávažně poptat
+"
                 title="Začněte svou sladkou cestu."
                 description="Custom creations are priced based on design, flavor complexity, and quantity."
                 plans={[
