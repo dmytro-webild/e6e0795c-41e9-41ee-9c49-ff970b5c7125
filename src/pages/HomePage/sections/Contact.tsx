@@ -10,10 +10,10 @@ export default function ContactSection(): React.JSX.Element {
     <div id="contact" data-section="contact" data-webild-component="ContactCta" data-webild-component-path="@/components/sections/contact/ContactCta">
             <SectionErrorBoundary name="contact">
               <ContactCta
-                tag="Get in Touch"
-                text="Ready to craft something beautiful together? Let's discuss your custom order today."
-                primaryButton={{ text: "Contact Us", href: "mailto:hello@makronkyodholky.cz" }}
-                secondaryButton={{ text: "Visit Our Instagram", href: "https://instagram.com" }}
+                tag="Ozvěte se nám!"
+                text="Chcete společně vytvořit něco krásného? Pojďme ještě dnes probrat vaši zakázku na míru."
+                primaryButton={{ text: "Kontaktujte nás", href: "mailto:hello@makronkyodholky.cz" }}
+                secondaryButton={{ text: "Navštivte náš Instagram", href: "https://instagram.com" }}
                 textAnimation="fade-blur"
               />
             </SectionErrorBoundary>
