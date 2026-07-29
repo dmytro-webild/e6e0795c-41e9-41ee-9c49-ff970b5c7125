@@ -10,28 +10,13 @@ export default function MacaronsSection(): React.JSX.Element {
     <div id="macarons" data-section="macarons" data-webild-component="FeaturesBento" data-webild-component-path="@/components/sections/features/FeaturesBento">
             <SectionErrorBoundary name="macarons">
               <FeaturesBento
-                tag="Our Specialties"
-                title="The star of the show: macarons."
-                description="Handmade macarons are at the heart of our studio. From timeless classics like Pistachio and Salted Caramel to playful custom themes for your special events."
-                features={[
-                  {
-                    title: "Artisanal Craft",                description: "Every batch is handcrafted to ensure the perfect texture and vibrant flavor.",                bentoComponent: "media-stack",                mediaItems: [
-                      { imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-french-macarons-with-candies-inside-tray-dark-space_140725-97872.jpg" },
-                      { imageSrc: "http://img.b2bpic.net/free-photo/delicious-cookies-arrangement_23-2150714538.jpg" },
-                      { imageSrc: "http://img.b2bpic.net/free-photo/top-view-colorful-delicious-macarons-little-cakes-with-candies-white-space_140725-79670.jpg" }
-                    ]
-                  },
-                  {
-                    title: "Custom Themes",                description: "Personalized designs for weddings, birthdays, and corporate branding.",                bentoComponent: "checklist-timeline",                heading: "Design Process",                subheading: "From concept to creation",                checklistItems: [
-                      { label: "Flavor Selection", detail: "Consultation" },
-                      { label: "Visual Design", detail: "Custom palette" },
-                      { label: "Hand-finishing", detail: "Detailing" }
-                    ],
-                    completedLabel: "Ready"
-                  }
-                ]}
-                textAnimation="fade"
-              />
+        tag="Naše specialita"
+        title="Makronky jsou naše srdcovka."
+        description="Makronky jsou hlavní specialitou Makronky od holky. Od nadčasových příchutí až po hravé tematické výtvory, každá makronka je pečlivě vyrobena s důrazem na chuť, texturu, barvu a detail."
+        features={[{"description":"Pistácie, Malina, Slaný karamel a další oblíbené příchutě.","mediaItems":[{"imageSrc":"https://images.unsplash.com/photo-1569864358642-9d1684040f43?q=80&w=2940&auto=format&fit=crop"},{"imageSrc":"https://images.unsplash.com/photo-1558326567-98ae2405596b?q=80&w=2859&auto=format&fit=crop"},{"imageSrc":"https://images.unsplash.com/photo-1571115177098-24ec42ed204d?q=80&w=2787&auto=format&fit=crop"}],"bentoComponent":"media-stack","title":"Oblíbené příchutě"},{"title":"Tematické makronky","description":"Personalizované designy pro svatby, narozeniny a firemní akce.","bentoComponent":"checklist-timeline","completedLabel":"Hotovo","checklistItems":[{"detail":"Konzultace","label":"Výběr příchutí"},{"detail":"Vlastní paleta","label":"Vizuální design"},{"detail":"Zdobení","label":"Ruční dokončení"}],"subheading":"Od konceptu k realizaci","heading":"Proces tvorby"}]}
+        textAnimation="fade"
+        primaryButton={{"text":"Chci objednat makronky","href":"#contact"}}
+      />
             </SectionErrorBoundary>
           </div>
   );

@@ -14,13 +14,15 @@ import PricingSection from './HomePage/sections/Pricing';
 import ContactSection from './HomePage/sections/Contact';
 
 
-import UspSection from './HomePage/sections/Usp';export default function HomePage(): React.JSX.Element {
+import UspSection from './HomePage/sections/Usp';
+import ThematicMacaronsSection from './HomePage/sections/ThematicMacarons';export default function HomePage(): React.JSX.Element {
   return (
 <>
       <HeroSection />
       <UspSection />
       <AboutSection />
       <MacaronsSection />
+      <ThematicMacaronsSection />
       <CakesSection />
       <TestimonialsSection />
       <PricingSection />
