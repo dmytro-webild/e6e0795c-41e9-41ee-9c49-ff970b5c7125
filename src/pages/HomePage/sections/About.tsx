@@ -10,13 +10,13 @@ export default function AboutSection(): React.JSX.Element {
     <div id="about" data-section="about" data-webild-component="AboutTestimonial" data-webild-component-path="@/components/sections/about/AboutTestimonial">
             <SectionErrorBoundary name="about">
               <AboutTestimonial
-                tag="Our Story"
-                quote="Every creation at Makronky od holky is a piece of art, made with genuine passion, premium ingredients, and a personal touch meant to make your celebrations truly special."
-                author="Pastry Artist & Founder"
-                role="Studio Owner"
-                imageSrc="http://img.b2bpic.net/free-photo/retired-man-following-culinary-advice-tablet-learning-cooking-tutorial-social-media-forming-dough-with-wooden-rolling-pin-grandfather-with-bonete-apron-using-laptop-preparing-home-cakes_482257-14491.jpg"
-                textAnimation="slide-up"
-              />
+        tag="Náš příběh"
+        quote="Každý kousek od Makronky od holky je malé umělecké dílo, tvořené s opravdovou vášní, z prémiových surovin a s osobním přístupem, který udělá vaše oslavy skutečně výjimečnými."
+        author="Cukrářka a zakladatelka"
+        role="Majitelka studia"
+        imageSrc="http://img.b2bpic.net/free-photo/retired-man-following-culinary-advice-tablet-learning-cooking-tutorial-social-media-forming-dough-with-wooden-rolling-pin-grandfather-with-bonete-apron-using-laptop-preparing-home-cakes_482257-14491.jpg"
+        textAnimation="slide-up"
+      />
             </SectionErrorBoundary>
           </div>
   );
