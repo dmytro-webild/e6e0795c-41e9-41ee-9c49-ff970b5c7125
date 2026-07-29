@@ -14,7 +14,7 @@ export default function AboutSection(): React.JSX.Element {
         quote="Každý kousek od Makronky od holky je malé umělecké dílo, tvořené s opravdovou vášní, z prémiových surovin a s osobním přístupem, který udělá vaše oslavy skutečně výjimečnými."
         author="Cukrářka a zakladatelka"
         role="Majitelka studia"
-        imageSrc="http://img.b2bpic.net/free-photo/retired-man-following-culinary-advice-tablet-learning-cooking-tutorial-social-media-forming-dough-with-wooden-rolling-pin-grandfather-with-bonete-apron-using-laptop-preparing-home-cakes_482257-14491.jpg"
+        imageSrc="https://storage.googleapis.com/webild/users/user_3DGTos4IdMkmcPKS7sAmVMjyyeJ/uploaded-1785345775072-7gf1949d.png"
         textAnimation="slide-up"
       />
             </SectionErrorBoundary>
