@@ -9,32 +9,24 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 export default function Layout() {
   const navItems = [
   {
-    "name": "Home",
+    "name": "Domů",
     "href": "#"
   },
   {
-    "name": "Macarons",
+    "name": "Makronky",
     "href": "#macarons"
   },
   {
-    "name": "Cakes & Sweet Bars",
+    "name": "Dorty a Sweet bary",
     "href": "#cakes"
   },
   {
-    "name": "About",
+    "name": "O nás",
     "href": "#about"
   },
   {
-    "name": "Contact",
+    "name": "Kontakt",
     "href": "#contact"
-  },
-  {
-    "name": "Hero",
-    "href": "#hero"
-  },
-  {
-    "name": "Testimonials",
-    "href": "#testimonials"
   }
 ];
 
@@ -45,7 +37,7 @@ export default function Layout() {
         <NavbarDropdown
       logo="Makronky od holky"
       ctaButton={{
-        text: "Request Quote",
+        text: "Nezávazně poptat",
         href: "#contact",
       }}
      navItems={navItems} />
@@ -56,7 +48,7 @@ export default function Layout() {
       <SectionErrorBoundary name="footer">
         <FooterMinimal
       brand="Makronky od holky © 2024"
-      copyright="Handcrafted with passion in Kutná Hora."
+      copyright="Ručně a s láskou vyráběné v Kutné Hoře."
       socialLinks={[
         {
           icon: Instagram,
